@@ -6,3 +6,4 @@
 | 02  | [Pricing Cards](https://github.com/Rafiul-Islam/Tailwind-Journey/tree/main/mini/pricing-cards)                     | [Live Demo](https://tailwind-journey.netlify.app/mini/pricing-cards/)                |
 | 03  | [Product Modal](https://github.com/Rafiul-Islam/Tailwind-Journey/tree/main/mini/product-modal)                     | [Live Demo](https://tailwind-journey.netlify.app/mini/product-modal/)                |
 | 04  | [Image Gallery](https://github.com/Rafiul-Islam/Tailwind-Journey/tree/main/mini/image-gallery)                     | [Live Demo](https://tailwind-journey.netlify.app/mini/image-gallery/)                |
+| 05  | [Login Modal](https://github.com/Rafiul-Islam/Tailwind-Journey/tree/main/mini/login-modal)                     | [Live Demo](https://tailwind-journey.netlify.app/mini/login-modal/)                |
