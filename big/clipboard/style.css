@@ -619,6 +619,11 @@ h3 {
   margin-bottom: 15rem;
 }
 
+.my-40 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -653,6 +658,10 @@ h3 {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-60 {
+  margin-top: 15rem;
 }
 
 .flex {
