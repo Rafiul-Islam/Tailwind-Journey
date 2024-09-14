@@ -106,80 +106,65 @@
           <h2 class="text-6xl font-light text-center md:text-left">
             Our Creations
           </h2>
-          <button
-            class="hidden md:inline-block bg-transparent borrder border-2 px-10 py-3 font-semibold uppercase border-black text-black hover:bg-black hover:text-white duration-300"
-          >
-            see all
-          </button>
+          <button class="hidden md:inline-block btn">see all</button>
         </div>
         <!-- Items Container -->
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
           <!-- Item -->
           <div class="group relative">
-            <div class="h-64 md:h-[500px] overflow-hidden">
+            <div class="item-images-container">
+              <!-- Desktop Image -->
               <img
-                class="w-full h-full object-cover hidden md:inline-block group-hover:scale-110 duration-200"
+                class="item-desktop-image"
                 src="./images/desktop/image-deep-earth.jpg"
                 alt=""
               />
-
+              <!-- Mobile Image -->
               <img
-                class="w-full h-full object-cover inline-block md:hidden group-hover:scale-110 duration-200"
+                class="item-mobile-image"
                 src="./images/mobile/image-deep-earth.jpg"
                 alt=""
               />
             </div>
-            <div
-              class="bg-black absolute inset-0 opacity-30 group-hover:bg-white group-hover:opacity-60 z-0"
-            ></div>
-            <div
-              class="text-white md:max-w-10 absolute bottom-10 left-10 text-3xl font-light font-sans group-hover:text-black group-hover:scale-105 z-10 duration-200"
-            >
-              Deep Earth
-            </div>
+            <!-- Image Overlay -->
+            <div class="item-overlay"></div>
+            <!-- Item Title -->
+            <div class="item-title">Deep Earth</div>
           </div>
           <!-- Item -->
           <div class="group relative">
-            <div class="h-64 md:h-[500px] overflow-hidden">
+            <div class="item-images-container">
               <img
-                class="w-full h-full object-cover hidden md:inline-block group-hover:scale-110 duration-200"
+                class="item-desktop-image"
                 src="./images/desktop/image-night-arcade.jpg"
                 alt=""
               />
 
               <img
-                class="w-full h-full object-cover inline-block md:hidden group-hover:scale-110 duration-200"
+                class="item-mobile-image"
                 src="./images/mobile/image-night-arcade.jpg"
                 alt=""
               />
             </div>
-            <div
-              class="bg-black absolute inset-0 opacity-30 group-hover:bg-white group-hover:opacity-60 z-0"
-            ></div>
-            <div
-              class="text-white md:max-w-10 absolute bottom-10 left-10 text-3xl font-light font-sans group-hover:text-black group-hover:scale-105 z-10 duration-200"
-            >
-              Deep Earth
-            </div>
+            <div class="item-overlay"></div>
+            <div class="item-title">Deep Earth</div>
           </div>
           <!-- Item -->
           <div class="group relative">
-            <div class="h-64 md:h-[500px] overflow-hidden">
+            <div class="item-images-container">
               <img
-                class="w-full h-full object-cover hidden md:inline-block group-hover:scale-110 duration-200"
+                class="item-desktop-image"
                 src="./images/desktop/image-soccer-team.jpg"
                 alt=""
               />
 
               <img
-                class="w-full h-full object-cover inline-block md:hidden group-hover:scale-110 duration-200"
+                class="item-mobile-image"
                 src="./images/mobile/image-soccer-team.jpg"
                 alt=""
               />
             </div>
-            <div
-              class="bg-black absolute inset-0 opacity-30 group-hover:bg-white group-hover:opacity-60 z-0"
-            ></div>
+            <div class="item-overlay"></div>
             <div
               class="text-white md:max-w-36 absolute bottom-10 left-10 text-3xl font-light font-sans group-hover:text-black group-hover:scale-105 z-10 duration-200"
             >
@@ -188,46 +173,38 @@
           </div>
           <!-- Item -->
           <div class="group relative">
-            <div class="h-64 md:h-[500px] overflow-hidden">
+            <div class="item-images-container">
               <img
-                class="w-full h-full object-cover hidden md:inline-block group-hover:scale-110 duration-200"
+                class="item-desktop-image"
                 src="./images/desktop/image-grid.jpg"
                 alt=""
               />
 
               <img
-                class="w-full h-full object-cover inline-block md:hidden group-hover:scale-110 duration-200"
+                class="item-mobile-image"
                 src="./images/mobile/image-grid.jpg"
                 alt=""
               />
             </div>
-            <div
-              class="bg-black absolute inset-0 opacity-30 group-hover:bg-white group-hover:opacity-60 z-0"
-            ></div>
-            <div
-              class="text-white md:max-w-10 absolute bottom-10 left-10 text-3xl font-light font-sans group-hover:text-black group-hover:scale-105 z-10 duration-200"
-            >
-              The Grid
-            </div>
+            <div class="item-overlay"></div>
+            <div class="item-title">The Grid</div>
           </div>
           <!-- Item -->
           <div class="group relative">
-            <div class="h-64 md:h-[500px] overflow-hidden">
+            <div class="item-images-container">
               <img
-                class="w-full h-full object-cover hidden md:inline-block group-hover:scale-110 duration-200"
+                class="item-desktop-image"
                 src="./images/desktop/image-from-above.jpg"
                 alt=""
               />
 
               <img
-                class="w-full h-full object-cover inline-block md:hidden group-hover:scale-110 duration-200"
+                class="item-mobile-image"
                 src="./images/mobile/image-from-above.jpg"
                 alt=""
               />
             </div>
-            <div
-              class="bg-black absolute inset-0 opacity-30 group-hover:bg-white group-hover:opacity-60 z-0"
-            ></div>
+            <div class="item-overlay"></div>
             <div
               class="text-white md:max-w-36 absolute bottom-10 left-10 text-3xl font-light font-sans group-hover:text-black group-hover:scale-105 z-10 duration-200"
             >
@@ -236,22 +213,20 @@
           </div>
           <!-- Item -->
           <div class="group relative">
-            <div class="h-64 md:h-[500px] overflow-hidden">
+            <div class="item-images-container">
               <img
-                class="w-full h-full object-cover hidden md:inline-block group-hover:scale-110 duration-200"
+                class="item-desktop-image"
                 src="./images/desktop/image-pocket-borealis.jpg"
                 alt=""
               />
 
               <img
-                class="w-full h-full object-cover inline-block md:hidden group-hover:scale-110 duration-200"
+                class="item-mobile-image"
                 src="./images/mobile/image-pocket-borealis.jpg"
                 alt=""
               />
             </div>
-            <div
-              class="bg-black absolute inset-0 opacity-30 group-hover:bg-white group-hover:opacity-60 z-0"
-            ></div>
+            <div class="item-overlay"></div>
             <div
               class="text-white md:max-w-36 absolute bottom-10 left-10 text-3xl font-light font-sans group-hover:text-black group-hover:scale-105 z-10 duration-200"
             >
@@ -260,22 +235,20 @@
           </div>
           <!-- Item -->
           <div class="group relative">
-            <div class="h-64 md:h-[500px] overflow-hidden">
+            <div class="item-images-container">
               <img
-                class="w-full h-full object-cover hidden md:inline-block group-hover:scale-110 duration-200"
+                class="item-desktop-image"
                 src="./images/desktop/image-curiosity.jpg"
                 alt=""
               />
 
               <img
-                class="w-full h-full object-cover inline-block md:hidden group-hover:scale-110 duration-200"
+                class="item-mobile-image"
                 src="./images/mobile/image-curiosity.jpg"
                 alt=""
               />
             </div>
-            <div
-              class="bg-black absolute inset-0 opacity-30 group-hover:bg-white group-hover:opacity-60 z-0"
-            ></div>
+            <div class="item-overlay"></div>
             <div
               class="text-white md:max-w-36 absolute bottom-10 left-10 text-3xl font-light font-sans group-hover:text-black group-hover:scale-105 z-10 duration-200"
             >
@@ -284,22 +257,20 @@
           </div>
           <!-- Item -->
           <div class="group relative">
-            <div class="h-64 md:h-[500px] overflow-hidden">
+            <div class="item-images-container">
               <img
-                class="w-full h-full object-cover hidden md:inline-block group-hover:scale-110 duration-200"
+                class="item-desktop-image"
                 src="./images/desktop/image-fisheye.jpg"
                 alt=""
               />
 
               <img
-                class="w-full h-full object-cover inline-block md:hidden group-hover:scale-110 duration-200"
+                class="item-mobile-image"
                 src="./images/mobile/image-fisheye.jpg"
                 alt=""
               />
             </div>
-            <div
-              class="bg-black absolute inset-0 opacity-30 group-hover:bg-white group-hover:opacity-60 z-0"
-            ></div>
+            <div class="item-overlay"></div>
             <div
               class="text-white md:max-w-36 absolute bottom-10 left-10 text-3xl font-light font-sans group-hover:text-black group-hover:scale-105 z-10 duration-200"
             >
@@ -308,11 +279,7 @@
           </div>
         </div>
 
-        <button
-          class="mt-10 w-full inline-block md:hidden bg-transparent borrder border-2 px-10 py-4 font-semibold uppercase border-black text-black hover:bg-black hover:text-white duration-300"
-        >
-          see all
-        </button>
+        <button class="mt-10 w-full inline-block md:hidden btn">see all</button>
       </div>
     </section>
 

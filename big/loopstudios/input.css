@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .btn {
+    @apply bg-transparent border-2 px-10 py-3 pt-4 font-bold tracking-widest uppercase border-black text-black hover:bg-black hover:text-white duration-300;
+  }
+}
+
 #hero {
   background-image: url(./images/desktop/image-hero.jpg);
   background-repeat: no-repeat;
@@ -11,4 +17,24 @@
   @media (width <= 576px) {
     background-image: url(./images/mobile/image-hero.jpg);
   }
+}
+
+.item-images-container {
+  @apply h-64 md:h-[500px] overflow-hidden;
+}
+
+.item-desktop-image {
+  @apply w-full h-full object-cover hidden md:inline-block group-hover:scale-110 duration-200;
+}
+
+.item-mobile-image {
+  @apply w-full h-full object-cover inline-block md:hidden group-hover:scale-110 duration-200;
+}
+
+.item-overlay {
+  @apply absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
+}
+
+.item-title {
+  @apply text-white md:max-w-10 absolute bottom-10 left-10 text-3xl font-light font-sans group-hover:text-black group-hover:scale-105 z-10 duration-200;
 }
